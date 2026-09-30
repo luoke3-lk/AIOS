@@ -1,0 +1,12115 @@
+{
+ "version": 1,
+ "seed": 20260101,
+ "intents": [
+  "CLEAR",
+  "MEMINFO",
+  "CPUINFO",
+  "SELFTEST",
+  "DISKINFO",
+  "MODELINFO",
+  "CALC",
+  "SCREENTEST",
+  "HELP",
+  "ABOUT",
+  "REBOOT",
+  "SHUTDOWN"
+ ],
+ "per_intent": 120,
+ "oov_count": 60,
+ "total": 1500,
+ "ops": [
+  "synonym",
+  "case",
+  "punct",
+  "order",
+  "typo"
+ ],
+ "stats": {
+  "CLEAR": {
+   "count": 120,
+   "hard_perturbed": 40
+  },
+  "MEMINFO": {
+   "count": 120,
+   "hard_perturbed": 50
+  },
+  "CPUINFO": {
+   "count": 120,
+   "hard_perturbed": 45
+  },
+  "SELFTEST": {
+   "count": 120,
+   "hard_perturbed": 37
+  },
+  "DISKINFO": {
+   "count": 120,
+   "hard_perturbed": 43
+  },
+  "MODELINFO": {
+   "count": 120,
+   "hard_perturbed": 48
+  },
+  "CALC": {
+   "count": 120,
+   "hard_perturbed": 38
+  },
+  "SCREENTEST": {
+   "count": 120,
+   "hard_perturbed": 35
+  },
+  "HELP": {
+   "count": 120,
+   "hard_perturbed": 39
+  },
+  "ABOUT": {
+   "count": 120,
+   "hard_perturbed": 45
+  },
+  "REBOOT": {
+   "count": 120,
+   "hard_perturbed": 39
+  },
+  "SHUTDOWN": {
+   "count": 120,
+   "hard_perturbed": 30
+  }
+ },
+ "samples": [
+  {
+   "text": "my wipe console",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean   it   all?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "can you flush the screen",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear the screen please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "flush the screen for me",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "get rid of all thhis text",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Blank   This   Console!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "reset the screen please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "reset this screen",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "WIEP THE CONSOLE PLEASE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear   the   monitor   now...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear the display for me.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wipe this console",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "can   you   flush   the   console!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "out reset the terminal",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "ccLEaN it all",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "flush the display for me!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wolud you wipe the screen.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   I Want To Erase The Screen...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "CLeAn thiS COnsoLe",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "need i a clean display",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   reset it all, pllease",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "blank out the console",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "CLEAN MY SCREEN",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "reset it all",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "get rid of all tthis text",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "CLEAR THE DISPLAY FOR ME",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "CAN YOU FLUSH THE SCREEN",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "CLEAR OUT THE SCREEN",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean   the   display   please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "this wipe console",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean it all!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear out the monitor",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean my terminal.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   WOULD YOU RESET THE TERMINAL...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wOULD You Wipe THe ScREEN",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "pelase blank the monitor",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "would you reset the terminal",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "now clear the monitor",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   please blank the monitor!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "fLUsh   The   scReEn   FOr   me!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   FLUSH THIS SCREEN?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "reset the screen please!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i want to clean the console",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   clean my screen?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   blank out the console.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i WAnT tO cleAn thE sCreEn",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "ant i to erase the terminal",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "lpease blank the monitor",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "I WANT TO CLAER THE MONITOR",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear the display plesae",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wouuld   you   clear   the   screen?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   blank out the console",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear   the   terminal   please,   please",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "BLaNK THE MOniToR",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear   out   the   screen,   please",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "flush htis screen",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   i want to clear the monitor!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i want to erase the screen",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Can You Flush The Screen",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "erase my terminal",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear the display please",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "ReSeT Out THe TeRMMinAL",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "the make screen empty",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i   WANt   To   ErAsE   ThE   SCReeN?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "makee   the   screen   empty!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "you can blank the monitor",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "can you flush the screen.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "WPIE THE CONSOLE PLEASE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i   neeed   a   clean   display?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Flush The Display For Me",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "blank this console",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wipe tihs console.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear the terminal please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i   need   a   clean   display?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "the clean display for me",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Reset It All",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i wannt to clear the monitor",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean my terminal",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean this screen, please",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i want to clean the console!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i awnt to erase the screen",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "flush this screen",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "cclEaR The MoNiTOr NOw",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "you would clear the screen",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "WiPe ThIS cONSOle",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "can you wipe the display",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Clear My Screen",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean my display",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Clen The Display Please",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "awnt i to clear the monitor",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "erase   my   terminal!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean this console!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "flush thhis screen",
+   "ops": [
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "CLeAr The mooNItOR noW",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   clean the display for me?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "please blank the monitor",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "flush   the   screen   for   me!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "ant i to clear the monitor",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "WoULD YoU clEaR ThE ScReeN",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Blank This Console...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "   Flush This Screen?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "I WANT TO ERASE THE TEMINAL",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "it clean all",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Clean The Display Pleaes",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wipe my console",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "blank   the   monitor.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wipe   my   console!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "can you blank the monitor!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clean   the   display   please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear the display please...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i   want   to   erase   the   terminal?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Make The Screen Empty",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "clear my screen",
+   "ops": [],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "WOulD YOU wIpE thE SCREeN",
+   "ops": [
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "i   want   to   erase   the   terminal.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "out blank the console",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "the flush display for me",
+   "ops": [
+    "order"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "ClEAn my scREEN",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "wipe my console.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 0,
+   "intent_name": "CLEAR"
+  },
+  {
+   "text": "Mem Info",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "the give memory map",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "PRINT   ME   THE   RAM?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "How Much Ram Is Installed",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how big is the ram",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   i want to know my mem",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "me tell about my mem",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "theere is enough mem left",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "HOw BIg is THE raM",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "WhAT IS thE tOTal ram InsTAllEd",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "much how ram is installed",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "How Much Memory Do We Have",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how big is the mem",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "whaat is the total memory installed.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "I   WANT   TO   KNOW   MY   DRAM.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "list the memory regions",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   give me about my dram.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   report me about my dram?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "report   me   the   dram!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give the mem layout",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "priint me the mem",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "giVE thE Mem laYOUT...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "gve the mem layout",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   How Many Bytes Of Memory Are There?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   DRAM PLEASE.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "sshow me about my dram",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "showw the ram map",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "tel   me   about   my   mem?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "Print   Me   The   Mem.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "is theere enough mem left",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how   much   ram   do   i   have.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "prit me the ram",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "much how ram do i have",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   memory info!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "whaat dram is available",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "me show abuot my dram",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "the dislay dram map",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "i want to nkow my dram",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how   much   memory   do   we   have...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "pprint the memory layout",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give Me The mEmORy",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   PRINT ME THE MEM?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "print the mem layout.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "pirnt me the mem",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "wwhat   is   the   total   memory   installed.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "How Many Bytes Of Memory Are There?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "show the ram map",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "is what the total ram installed",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "print the mem layout",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "me igve about my mem",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   what dram is available, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "print me the ram",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "HOW MANY BYTES OF DRAM ARE THERE",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   diSPLaY The MemORy LAyOUt?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "display the memory layout",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "watn i to know my mem",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "screen the mem map",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   how many bytes of dram are there?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "wnat i to know my mem",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   what dram is available!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "REPORT ME THE MEM",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   repoort me the mem!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give me aabout my dram",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "me giive about my mem",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give me the memory!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "dram please",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "DISSPLAY THE DRAM MAP",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "plesae mem information",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how maany bytes of memory are there",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   show me about my dram?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how much ram is installed",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   show the mem layout, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "list the mem regions",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give me the memory",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "i want to know my dram",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "display the dram map...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "Show The Mem Layotu",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how many bytes of dram are there",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "sohw the mem layout",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   report me the dram, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "pleaes mem information",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "ilst the memory regions!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "WHAT IS THE TOTAL MEMORY INSTALLED",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "is what the total memory installed",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "List The Memory Regions",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "rpeort me the dram",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how much ram do i have?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "what is the total ram installed",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "gIE me abouT MY mEm",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "the list memory regions",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "me repot the dram",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "GIVE THE MEMORY MAP",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   tell me aboutt my mem.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "hoW MAnY bYTES oF dRAM ArE there",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "print me the mem",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give me about my mem!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   screen the mem map.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "I WANT TO KNOW MY MEM",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "the tell memory layout",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "show the ram layout",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   tell the memory layout.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "the prinnt memory layout",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "mem information please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give the memory map",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "report me about my dram",
+   "ops": [],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   how much memory do we have...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "the pirnt memory layout",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "how much mem do we have",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   lst the memory regions?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "mem   info.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "   i want to know my ram!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "I Want To Knwo My Mem",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "MEM INFORMATION PLAESE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "me report the mem",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "tELl mE aBoUt my mEM",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "much how memory do we have",
+   "ops": [
+    "order"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "prin me the ram",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "dipslay the memory layout",
+   "ops": [
+    "typo"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "REPORT ME ABOUT MY DRAM",
+   "ops": [
+    "case"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "GIVE   THE   MEM   LAYOUT?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 1,
+   "intent_name": "MEMINFO"
+  },
+  {
+   "text": "give me the chip vendor",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give me the chip brand",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "what cpu is ths",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   what cpu is inside?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "READ PROCESSOR INFO",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give   me   the   chip   vendor?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display me the chip vendor",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "WHicH CPu is installED",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Print Processor Info",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "processor please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "chip what is inside",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print chip information?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "SHOW THE CORE ID",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display me the chip brand!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "the reaad chip id",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "core details please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   display core info?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Read Processor Info",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "DISPLAY CHIP INFORMATION",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   print me the chip vendor!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   Tell Me The Processor Vendor!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display chip info.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   prinnt cpu info!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   dipslay chip information!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   core details please...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   read processor information!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "tell me the processor vendor",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Give Me The Core Brand",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "ead the chip id",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "read me the cpu vendor",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "processor read info",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "please core details",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "processor print ifno",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "core wat do i have",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "read   the   chip   id.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "read core inormation",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "diSPlAy tHe PrOCEsSoR id",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   read me the cpu vendor!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "processor read informatio",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "pint me the cpu vendor",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give processor infomation",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "PRINT ME THE CHIP BRAND",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print   me   the   cpu   brand.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "raed core information",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "iSPLaY me thE ChIp VENDoR",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display me the core brand",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   print me the core brand",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "whta chip is inside!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "diSPlAy ThE CIHP id",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "processor please?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print   me   the   core   brand!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   print me the cpu vendor?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "reda processor info.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "chip display information",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "cORE deTAiLs plEasE",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give core information!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give processor information",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "cpu which is installed",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Display Me The Processor Brand",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Show Me The Cpu Vendor",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "PPrinT mE THE coRE branD",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   Give Processor Information!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display   me   the   chip   vendor!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "DSIPLAY ME THE CHIP VENDOR",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "read core information...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "DDISPLAY CORE INFO",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "what cpu is this",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "WHaT oCrE do I havE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "me dispaly the chip vendor",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "what   kind   of   processor   is   this!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "show chip info",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   what chip is inside.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Print Me The Coe Brand",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give core information",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "dispplay the processor id.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Print Me The Chip Brand",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "tel me the processor vendor",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "telll me the core brand",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "the isplay chip id",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print me the cpu vendor",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "cpu print info",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print   processor   info!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Which Cpu Is Installed",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display the chip id, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "whhat kind of cpu is this",
+   "ops": [
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   give processor information.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "READ PROCESSOR INFORMATOIN",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   prin cpu info?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "me give the chip brand",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Display Chip Information",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print chip information",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give me the core brand",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "me giv the chip vendor",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "telL me The PrOCESsOR vENdor!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "me displya the chip vendor",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "kind what of processor is thhis",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display me the chip brand?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   read the chip id",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "iknd what of processor is this",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "read core information",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "What Chip Is Inside",
+   "ops": [
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   give me the core brand.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print processor info!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "What   Kind   Of   Cpu   Is   This!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "print me the cpu brand",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "tell me the core brand",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "giev   me   the   core   brand!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "wHICH PROcEsSOR Is InStalled!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "PRINT CHIP INFORMATION",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "give the core id",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "priNt porCesSor InFO",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   print me the core brand!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "show the core id",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "READ me ThE CPU veNDoR",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "ive me the chip brand, please",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "cpu show information",
+   "ops": [
+    "order"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "display chip info",
+   "ops": [],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "Display CCore Info",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "WHAT CPU IS INSIDE",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   TELL ME THE CORE BRAND!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 2,
+   "intent_name": "CPUINFO"
+  },
+  {
+   "text": "   START A MACHINE SELF TEST...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "execute a full box self test",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "PERFORM   A   MACHINE   SELF   TEST?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "start a built in self check",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Perform A ull Machine Self Test",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "check my box health!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "check my box health",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   probe the pci bus!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "run   diagnostics!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "test the hardware",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Do A Box Self Diagnose",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do a full devices self test",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform a full machine self test!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "start a full box self diagnose",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform   a   full   machine   self   test!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "a exceute machine self test",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "execute   the   box   diagnostics   now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Do A Hardware Self Test",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "execute the box diagnostics now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "is my hardware working.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   run a full box self test!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "run diagnostics",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "RUN A DEVICES SELF TEST",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "my check devices health",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "run a full box self test",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   execte a box self test!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "exectue the devices diagnostics now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "PeRFORm a FULl SysstEM SELf TeST",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   start the system diagnostics now!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perfoorm a devices self test",
+   "ops": [
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "start   the   system   diagnostics   now!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   is my system working.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "start the box diagnostics now!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   I WANT A FULL MACHINE CHECK.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "IS MY SYSTEEM WORKING",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "START THE SYSTEM DIAGNOSTICS NOW",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Start The Machine Diagnostics Now",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "I WaNT a Full MACHINe cHECk?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform a full system self test, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "execuet the hardware diagnostics now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   perfomr the system diagnostics now!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform the machine diagnostics now",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do a devices self check",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "execut   a   full   system   self   test!!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "PeRfOrM THe systEM DiaGnOSTIcs Now",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform   the   machine   diagnostics   now.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform a full machine self test.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "ruN diAGnoStiCs",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "EXeCuTE A FULL sYsTeM sELf TEsT",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Is My Hardware Working",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do a full hardware self test...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do a box self diagnose",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Run Diagnostics",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   execute a machine self test...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   is my hardware working!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   start a built in self diagnose...",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "is   my   system   working?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   check my devices health.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "IS MY SYSTEM WORKIG",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Execute A Full Box Self Test!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "TEst THE HARDWaRE",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "wnat i a full box check",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "start the box diagnostics now",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "run a devices self test?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "start the machine diagnostics now",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "a peform full system self test",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Probe The Pci Bus",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "wwant i a full box check",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "tEST The sySTEm?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   staart the box diagnostics now!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   start a built in self check.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   do a box self check?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "DO A FULL HARDWARE SELF TEST",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Perform A Full Machine Self Test",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "peform a devices self test",
+   "ops": [
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "a execute full hardware self test",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "now exeute the box diagnostics",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "PERFORM A FULL SYSTEM SELF TEST",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "a do full devices self test",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "eXEcUtE a fUlL HarDWaRe SElf TesT",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do a hardware self test",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "diagnose my system",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "run a devices self test",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "start   a   full   box   self   check",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "a eprform full machine self test",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "execute a box self test",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "DO A BOX SELF CHECK",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "ExecUTE a maCHine sseLF teST",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "stART thE box DIaGNOstIcs NOw",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "now do the hardware diagnostics",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "execute the devices diagnostics now",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "tsart a machine self test",
+   "ops": [
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do   a   full   devices   self   test!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   i want a full box check?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "I WNAT A FULL BOX CHECK",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "now perform the system diagnostics",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "test everything?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "CHECK   MY   BOX   HEALTH.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "probe   the   pci   bus.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform   a   devices   self   test!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "now xeecute the box diagnostics",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "pERFoRm A fUll maCHiNe self tESTT",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "eecute the devices diagnostics now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "exceute   a   full   system   self   test.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "a execute full system self test",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "test everything",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "Start The Box Diagnostics Now",
+   "ops": [
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "EXCEUTE THE BOX DIAGNOSTICS NOW",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "my diagnose system",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "a execute box self test",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "StART   A   mAcHInE   sElf   teSt!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "peRFOrm A FUlL SySttEm sELf tEsT",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   Execute The Hardware Diagnostics Now!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "START THE BOX DIAGNOSTICS NOW",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   perform a full machine self test.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do   a   full   hardware   self   test!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perofrm a machine self test",
+   "ops": [
+    "typo"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "the test hardware",
+   "ops": [
+    "order"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "perform a full system self test",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "do the hardware diagnostics now",
+   "ops": [],
+   "intent": 3,
+   "intent_name": "SELFTEST"
+  },
+  {
+   "text": "   what drive is attached?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Identify   The   Hard   Drive?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "scan the ssd.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   givee me the hdd model?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "detect the disk!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "HOW   BIG   IS   THE   STORAGE",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   do i have a ssd.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "theer is a hdd installed",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "IdENTiFy DiSk Info",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "disk identify inf",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   hoW big Is ThE stOragE.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "i do hae a hard drive",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "DeTECT Ssd inFO",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "scan   for   a   ssd!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   giive me the ssd model",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "identify the hard drive",
+   "ops": [],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "whhat dRiVE IS atTacHed",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is tehre a hdd installed",
+   "ops": [
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe the disk",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Read   The   Disk   Identity.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "do   i   have   a   hard   drive",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe   ssd   info!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is there a ssd installed",
+   "ops": [],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "ssd detect info",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "identify   drive   info.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "i do hvae a hard drive",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "scan the ssd!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "chcek ssd info",
+   "ops": [
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "identify disk info!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "the probe disk",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "identify hard disk info",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "identify drive info",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "How   Big   Is   The   Hard   Drive?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "hsow the drive...",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "do i hve a ssd",
+   "ops": [
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "iDeNtIFy DisK inF",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "pelase ata identify",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "how big is the storage",
+   "ops": [],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "ata identify please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe the disk...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "disk probe info",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "the detect disk",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "prrOBE tHe disK",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "What Disk Is Attached",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "detect the disk.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Show The Drive",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   wht disk is attached!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is thhere a ssd installed",
+   "ops": [
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "give me the hdd model",
+   "ops": [],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "any is hard drive present",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "disk what is attached",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "how big is the disk",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "ata identify please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   giev me the ssd model!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   identify the hdd!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe the drive",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   identify the disk!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "SHOW HARD DRIVE INFO",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "SHOW STORAGE INFO",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "CHECK DRIVE INFO",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "check hdd info",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "IS ANY HARD DRIVE PRSENT",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Read The Disk Identity",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "dEtECT THe diisK",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "PROBE DISK INFO",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe disk info.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "read the hdd identity",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "HOW BIG IS THE DRIVE",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is there a ssd installed?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe drive info",
+   "ops": [],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "disk identify ino",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   identify hard hdd info?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe   drive   info?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "the show drive",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   hat disk is attached!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe ssd info",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   identify the hard drive?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Do I Have A Hard Drivve",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Identify   The   Hdd!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   Read The Storage Identity?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is any hard drive present.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "DetEct THE dIK",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "me give the ssd model",
+   "ops": [
+    "order"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "CHecK ThE dRivE",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe ssd info!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Probe Ssd Info",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is there a drive installed",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   CHECK SSD INFO?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "identify disk info",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "scan   for   a   drive.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "IDEntify   tHe   HDd?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "how big is the drive.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   scan disk info...",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is there a disk installed.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   shwo storage info!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   detect ssd info.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "drive wha is attached",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "detect   the   drive...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "sHoW sTORagE InFo",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "identify   disk   info!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "reead the storage identity",
+   "ops": [
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "probe the drive.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Is aNy HARD DrIvE prsent",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "scan disk info",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "how big is the hard drive",
+   "ops": [],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is there a hdd installed?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "ata identify pleasee",
+   "ops": [
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "detEECT tHe DRIVe",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   show storage ifo",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "reda the disk identity",
+   "ops": [
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "read the storage identity",
+   "ops": [],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "is   there   a   hdd   installed...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Identify The Disk",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "Probe The iDsk",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "sshow   hard   drive   info?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "PRObE drIve Info",
+   "ops": [
+    "case"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "how   hard   drive   info!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "how big is the disk?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "   sho the drive...",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "check the disk",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 4,
+   "intent_name": "DISKINFO"
+  },
+  {
+   "text": "display me your network.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "is a model loaded",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "model print details",
+   "ops": [
+    "order"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "how   many   weights   does   yur   model   have.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   what neural network are you using?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "PRINT NEURAL NETWORK ETAILS",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "model information",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   network please?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   how mayn weights does your neural network have!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "is   a   ai   network   loaded!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "neural wht network are you using",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "PinT Ai MOdel dETaiLS",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "IS A NETWOK LOADED",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "what   are   yoru   neural   network   dimensions!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "shoow your neural network",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "how large is the model",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "TEll me AbOut YouR neuraL ModEL",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "ai prnt model details",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "PRinT mODeL DeTAils",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Describe Your Model",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "TELL ME ABOUT YOUR ODEL",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "WHAt are YOUr netWOrk DIMensioNs",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Describe   The   Ai   Model...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "nETWorK pLEAsE",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "prnit   your   network!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "show   me   about   your   neural   network.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "tell   me   about   your   model.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "tell me about your neural model",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "describe you ai model",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print your ai network.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "many how weights does your neural network have",
+   "ops": [
+    "order"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   tell me about your neural model.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "is a ai network loaded",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "ai print model detaisl",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "show me yor model",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "the describe neural network",
+   "ops": [
+    "order"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "ai   network   please?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "tELl mE ABOUT YoUR neuRAL moDEL",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "show me your model",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "describe your ai model",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "how your neural network",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "what are your network dimensions",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "DescRIBE the NEuRaL NetwoRk",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "sohw me your model",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "explain your neural network",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "what   neural   network   are   you   using?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "ai   model   information",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "whih network is running",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   model information!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "model wwhat are you using",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "your print network",
+   "ops": [
+    "order"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print your ai network",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "describe the neural network",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "describe your neural network",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "ai network please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Show Your Neural Network!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "network print dteails",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "which network is running",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "SHOW Me YoUr mOdeL?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   network please, please",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "What Is Your Network Shape",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Describe The Neural Network",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   is a model loaded",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "AI NETWORK PLEASE",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Show Your Ai Model",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "What Model Are You Uisng",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print me your network",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "model ai informtion",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   what model are you using",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "AI MODLE INFORMATION",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "whAT   aRE   YOUR   aI   MODeL   DIMENSionS!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "a is network loaded",
+   "ops": [
+    "order"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "WHAAT KIND OF NETWORK DO YOU RUN",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Ai Moel Information",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "network pritn details",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "how   large   is   the   neural   network?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print network details.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "What Are Your Neural Network Dimensions",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Which Ai Network Is Running",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "kind waht of network do you run",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print neural network details!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "how many weights does your model have",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "prin neural network details",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Describe   The   Ai   Model?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Is A Newtork Loaded",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "PRiNt yoUR network",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "What Are Your Network Dimensions",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "what   kind   of   network   do   you   run!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "which ai network is running",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "hoW mAnY wEIgHts dOeS yOUR NEURAl nETwork havE",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "Which Network Is Running!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print ai model details?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "hwat   is   your   network   shape",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "WHAT IS YOUR NETWORK SHAPE",
+   "ops": [
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "large how is the neural network",
+   "ops": [
+    "order"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "neural prinnt network details",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "wwhat   is   your   network   shape?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   describe the model!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "what are your ai model dimensions",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "what are oyur ai model dimensions",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   is a ai network loaded!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "prnt   model   details?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "waht model are you using",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "show your neural network",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   print yuor network?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "IS A AI NETWORK LOADED",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "describe the ai model",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "rpint model details!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "showw your ai model!!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "neural print network dtails",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "how large is the neural network",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "describe the model",
+   "ops": [],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "kind whaat of network do you run",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print your network!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   print network details?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "me ttell about your model",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "describe our ai model",
+   "ops": [
+    "typo"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "are what your neural network dimensions",
+   "ops": [
+    "order"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   which ai network is running!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "print   ai   model   details!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 5,
+   "intent_name": "MODELINFO"
+  },
+  {
+   "text": "   1000 times 250?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what is 255 times 15",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "45678 plus 1234!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "100 PLUS 58",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "MULTIPLYY 256 BY 16",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "is wwhat 12 times 7",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "subtract 3 from -5",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   divide 100 by 58!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "HOw MUch iS 250 lpUS 50",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "can   you   compute   64   minus   32!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   whats 1024 plus 512.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what   is   7   plus   8   equal   to",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "subtract 3 from -5!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "WHAT IS 99 PLUS 3 EQUAL TO",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats   4096   plus   16...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "divide   100   by   58?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "SUBTRACT 3 FROM -5",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   2048 plus 4?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whta is 99 plus 3 equal to.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "you can compute 64 minus 32",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "calculate -5 plus 3",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "CAN YOU COMPUTE 64 MINUS 32",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "1000 tiMes 250",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "What Is 12 iTmes 7",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "2048   plus   4?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "WHATS 12 PULS 7",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "2048 PLUS 4",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "12 Pus 7",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   1000 times 250.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   gvie me 16 times 4...",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "add   250   and   50?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "Divide   16   By   4?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats 1024 plus 512.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "WHAT IS 255 TIMES 15",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "cAlcUlAtE -5 pLUS 3",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats 12 plus 7",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats 12 plus 7...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "gie ME 77 tImEs 7",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "cAn YoU cOmpUTe 64 MiNUS 32",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "12 plus 7",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "WHAT IS 12 TMIES 7",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "give me 77 times 7!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "mUUltIpLy 64 By 32",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "is whta 12 times 7",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "giVe me 31 TiMeS 5",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "7 times 8...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   CAN YOU COMPUTE 64 MINUS 8!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "45678 lPus 1234",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "100 divide by 58",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whhat is 1234 times 4321",
+   "ops": [
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "CAALCULATE 64 PLUS 32",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "wat is 4096 minus 16!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "times 1000 250",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "12 whats plus 7",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "much how is 1024 plus 512",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "subtract 16 fro 4096",
+   "ops": [
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "much how is 16 minus 32",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "is what 99 plus 3 equal to",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "Whats 4096 Plus 16",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what is 255 times 15?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "giVe me 4096 TImES 16",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "gve me 4096 times 16!!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "HOW MUCH IS 512 PLUS 8",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "me give 4096 times 16",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "calculate 64 plus 32",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "wht   is   99   plus   3   equal   to",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "plus 100 7",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "31   plus   5?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "subtract   3   from   -5.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what is 4096 minus 16",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what is 255 plus 15 equal to!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "waht is 1234 times 4321",
+   "ops": [
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "give me 31 times 5",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "how   uch   is   1024   plus   512.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "100 PLUS 7",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "hat is 999 minus 111",
+   "ops": [
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "GIVE ME 4096 TIMES 16",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "HOW muCH is 250 pUS 50",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "multiply 64 by 32.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "2048 plus 4",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats 512 plus 8",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "What   Is   1234   Times   4321...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "wwhat is 255 plus 15 equal to",
+   "ops": [
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "What Is 1234 Times 4321!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "Give Me 16 Times 4",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   give me 31 times 5.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "100 plus 58?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "What Is 77 Divided By 7",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   how much is 512 plus 8",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   what is 77 divided by 7",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what is 1234 times 4321",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "7 times 8",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "is what 4096 minus 16",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "waht is 7 plus 8 equal to",
+   "ops": [
+    "typo"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "add 250 and 50",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "1000 TIMES 250",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "Subtract 3 From -5",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "64 multiply by 32",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "31   plus   5!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "subtract 16 from 4096",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats   4096   plus   16.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "how much is 512 plus 8",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats 4096 plus 16",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   what is 12 times 7.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "100 PlUs 58",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "whats 12 plus 7!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "64 calculate plus 32",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "Whats   512   Plus   8!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "Subtract   16   From   4096.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what is 77 divided by 7",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "How Much Is 16 Minus 32",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what   is   77   divided   by   7?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "1024 whats plus 512",
+   "ops": [
+    "order"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "what is 255 times 15!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "how   much   is   250   plus   50!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "31 plus 5",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "GIVE ME 31 TIMES 5",
+   "ops": [
+    "case"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "100 plus 58",
+   "ops": [],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   calculate -5 plus 3.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "   12 plus 7?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 6,
+   "intent_name": "CALC"
+  },
+  {
+   "text": "test the screen",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "test the monitor",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "SHOW   ME   THE   COLOR   BARS.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the test display",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the fill screen with red",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   run the monitor.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fILL the DiSPlAY wITh RED",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Run   The   Screen.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "apinT tHE SCreeN bLUE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   show me some colors!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   paint the monitor blue!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "check   the   display!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fill the monitor with red!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "FILL THE MONITRO WITH RED",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "sohw me the color bars",
+   "ops": [
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fill   the   terminal   with   red.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the fill monitor wiht red",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "PAINT THE MONITOR BLUE",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run a screen test",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "i   wat   a   screen   test",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run a screen test!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "teST THE coLourS",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "colour test please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the fill display with red",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "want i a screen test",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "I WanT a MoNitOR tEST",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run the monitor",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   draw a pattern!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "check the display",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   PaInT tHe SCREEN bLUE, please",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "draw a pattern",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the run screen",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Test The Monitor",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "check the screen",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run a monitor test",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   test the display?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "diagnose   the   display?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fill the screen wiht red",
+   "ops": [
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the fill display wiith red",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run a screen test?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "me show some colors",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "showw me some colors!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the paint display blue",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "paint the monitor blue",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run a screen diagnose",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run the display!!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "TEST THE COLORS",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   fill the screen with red.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   display a check pattern?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   DRAW A GRID...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "draw a pattern!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "PaINt ThE diSpLaY BlUe!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "check the monitor",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "a draw pattern",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   i want a display test?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Run A Mnitor Test",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "please colour test",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   check the display?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   color test please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "CHECK THE MONITOR",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   i wantt a monitor test.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Show Me The oClor Bars",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   show me some colours!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "cHEck   ThE   scrEEn.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   TEST THE SCREEN?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "i wannt a monitor test",
+   "ops": [
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Test   The   Colors.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fill the screen witth red!!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "ruN a DIsPlay TesT",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   display a test pattern",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "paiNt tHE DiSPLay BLUE",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the check screen",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "paint   the   screen   blue,   please",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "show me some colors",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "PAINT THE MOONITOR BLUE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   color test please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   i awnt a display test.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "colour diagnose please.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Fill   The   Display   With   Red.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the test screen",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the run display",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "RUN THE DISPLAY?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Check The Screen",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "SCREEN A TEST PATTERN",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run the display",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "colour test plaese",
+   "ops": [
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "RUN A DISPLAY TEST",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "test the colours",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the check monitor",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run   a   display   test.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run   a   monitor   test?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "test   the   monitor!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run   the   monitor!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "colour test please",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fIll The MOnitOr With reD",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "I WANT A SCREEN TEST",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "RUN A MONITOR TEST",
+   "ops": [
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Check The Monitor!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "show me the colour bars",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run the screen",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "paint the screen blue",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Run A Displya Test",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "test the display",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "test the colors",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "i   want   a   monitor   test,   please",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "i want a screen test.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "color test plesae",
+   "ops": [
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fill the display with red",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "a draw grid",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "run a display test, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "i wan a display test",
+   "ops": [
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "fill the monitor with red",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "i watn a monitor test",
+   "ops": [
+    "typo"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Run A Display Check",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "Colour Test Please",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "colour   test   please",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "the check display",
+   "ops": [
+    "order"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "display a test pattern",
+   "ops": [],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "i   want   a   screen   check?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "   run a display test.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 7,
+   "intent_name": "SCREENTEST"
+  },
+  {
+   "text": "list what you can do mate!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "list   what   you   can   do!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "SHOW ME THE COMMANDS NOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "how   do   i   use   this   please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can i say now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what commands are there now",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "help me out please, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can you help me please",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "What Should I Type Mate",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what are my options pplease",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can i say",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i need help now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Show Me The ommands Now",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what should i type now, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "help?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Show   Me   What   You   Can   Do",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "display me what you can do please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i need help!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what list you can do",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Can   You   Help   Me   Please,   please",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i dont know what to type please",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "show me the commands now, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i dont know what to type.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Can You Hepl Me",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "List What You Can Do Mate",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i dont know what to type please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Can You Hlp Me Mate",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "how   do   i   use   tthis   mate!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "how Me What You Can Do Now",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "shw me what you can do",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i NeeD hELP NoW",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what should i type mate",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can you do matee",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "give me the commands please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "please give me a list of options",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   shoW ThE hELp?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "shoow me what you can do",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "now what commands are there",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "SHOW   ME   WHAT   YOU   CAN   DO,   please",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "SHOOW ME WHAT YOU CAN DO NOW",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can what i say",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what should i type now",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "GIVE ME A LIST OF OPTIONS MATE",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i dont know what to type",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "ShOw mE wHAT YOU Can Do mATe",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what are my options mate.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "are what my options mate",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what   can   i   say   mate?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can you help me pease",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "help!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   list what you can do.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "you can help me mat",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "GIVE ME A LIST OF OPTIONS NOW, please",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "HelP   me   out.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "pplease how do i use this",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "sho me the commands",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "show me the commands",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   what can you do.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Display Me The Commands Please",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "CAN YOU HEPL ME MATE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   list what you can do please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can you do now",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "LIST wHat You cAn dO PLeAse",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Whta Can You Do",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "WHAT CAN I SAY NOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what   can   i   say!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can what you do mte",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i need help now",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "print   me   what   you   can   do   please!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "give   me   a   list   of   options   mate,   please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   what commands are tthere now.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "display me the commands please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "haT CAn YoU Do NOW",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   what are my options please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "display me the commands please?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can you do now, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "help please",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "CAN   YOU   HELP   ME   PLEASE!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can i say.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Help   Me   Out   Please?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Show Me What You Can Do Mate",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   show me what you can do now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "now what can you do",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   giv me a list of options please...",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what are my options mate",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can i say now",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what can i say ate",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "HELP   PLEASE,   please",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "i need help",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what   should   i   type   mate?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can what you do maet",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "me show what you can do mate",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "I Dont Know What To Type",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what   are   my   options   mate?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what list you can do mate",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "GIVE ME A LIST OF OPTIONS PLEASE",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what   can   you   do!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "you can help me",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "wHAT cOMmAnDs Are tHere Now",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what are my options.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can what you do",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "now sohw me the commands",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   show me the commands now",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "gvie me a list of options now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "help",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "cAN yoU heeLP mE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "I Need Help",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "PRINT ME WHAT YOU CAN DO PLEASE",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "how   do   i   use   tihs   mate!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "hOw Do i USe Ths PlEASe",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can   you   help   me.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "give me a list of options now",
+   "ops": [],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can   you   help   me   now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "can   you   help   me   now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Help",
+   "ops": [
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "help me out pleaes",
+   "ops": [
+    "typo"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "hElP   Me   OUt.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "Give Me What You Can Do Please",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "please list what you can do",
+   "ops": [
+    "order"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "   SHOW ME THE COMMANDS...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 8,
+   "intent_name": "HELP"
+  },
+  {
+   "text": "what   build   is   this   now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "who are you now",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "now i want to know your version",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "who made you please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "give me the version now?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "shwo version now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHAT IS TIS SYSTEM NOW",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "describe yourself please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "give me about this os now",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "Whta Is Aios Now",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "Which   Version   Of   Aios   Is   This   Now...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   tell me about this os please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHO MADE YOU NOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "which version of aios is this now",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   describe yourself!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "now whhat is this system",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "tell   me   about   this   os   please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "showw version please",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   what is aios?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "ABOUT",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what are you now",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "What Build Is This Please",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what is this box",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what build is this now",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "sow me the version!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   what is this machine.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   give me about this os now",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "ABOUT PLEASE",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "i want to knw your version now.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHO ARE YOU PLEASE",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what   is   this   system   now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what build is this please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   which version of aios is this please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "print me the version now",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "thi about system",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "print   the   version   please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHICH VERSION OF AIOS IS THI PLEASE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "BAOUT THIS SYSTEM",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "who are you pelase",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "waht is aios please",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "now print the version",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what is aios now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "now what are you",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "pleasse which version of aios is this",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "wat are you",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "now wht is aios",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   shOW ME THe VeRsiOn pLease!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "About Please",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "print the version",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "Who Made You Please",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "describe yourself",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   about?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "whaT   IS   AIOS   PlEAse!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "i   want   to   knwo   your   version   please?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what are you please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "wwant i to know your version",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHICH   VERSION   OF   AIOS   IS   THIS   NOW!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "about",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what   build   is   htis   please?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   whaat are you now!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "lease tell me about this os",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "which version of aios is tthis now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "which version of aios is this please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "who made you now",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHAT ARE YOU NOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "version please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "version please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "about this box please",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   who made you please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "please describe yourself",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "show me the version pelase",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "who are you",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "please i want to know your version",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what are you",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "i WAnT TO know yuR VersIon",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "print   the   version   now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "please what is this system",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   what build is this now...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "about?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHAT BUILD IS THIS",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "how me the version please",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what build is this",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   WHAT ARE YOU?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "now wha is aios",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what build is this...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "me show the version",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "Show   Version   Now",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "ShoW   vErSIon   pLEasE!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHICH VERSIONN OF AIOS IS THIS PLEASE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "how me the version?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   about please...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "DESCRIBE YOURSELF",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "display   me   the   version   now",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "about this box please.",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what is aios please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "please what are you",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "please version",
+   "ops": [
+    "order"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "what is thsi system please?",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "I Want To Know Your Version Now",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "WHHaT IS aioS",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "What Is This Systm Now",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   describe yourself please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "What   Is   Aios   Please!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "What Build Is This Now",
+   "ops": [
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "print the version now",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "whatt is aios",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "wHo ARe YoU NOW.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "Print The Version...",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   who made you please, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "print   the   version   please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "PRINT THE VERSIONN NOW",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "tis about system",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "print the version please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "show version please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "   i want to know your version.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "GIVE me tHe versIon NOW",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "i want to know your version please",
+   "ops": [],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "who are you pplease",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "which version of aios is tis now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "whta are you",
+   "ops": [
+    "typo"
+   ],
+   "intent": 9,
+   "intent_name": "ABOUT"
+  },
+  {
+   "text": "reset the box please",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "RESET EVERYTHING PLEASE",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "resET THe COmPuTer noW",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "rEsEt tHe macHinE PLEase",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "pleaes give the box a reset",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the mAChINe A rESeT NoW",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "rESTaRt thE Box pLeaSe",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "gie the computer a reset please",
+   "ops": [
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "gve the computer a reset please",
+   "ops": [
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   restart the machine rgiht now...",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "do a reboot",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "the reboot box",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now give the box a reset",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset   the   computer   now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the box a reset",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "giev   the   box   a   reset.",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "gIve tHe mACHiNE A ReSet nOw",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the box a reset pelase",
+   "ops": [
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "please reboot",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "DO a rEBoot PLease",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the box a reset now",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart please",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   reboot the machine?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Give The Box A Reset Plaese",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset the computer now",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart it now",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "please   restart.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "the igve system a reset",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart   the   system   now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart it",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   reboot the system please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the computer a reset.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "BOot IT agaIn PLEaSe",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot the computer",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "please reset everything",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot the computer now",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "gvie the computer a reset now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Reboot Please",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   i want to reboot please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "boot it again now",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart the box pplease",
+   "ops": [
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart the box please",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Reboot",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Reboot The Coomputer Please",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "the give box a reset",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now giive the system a reset",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Boot   It   Again?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "boot it again please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   reboot please!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "pplease i want to reboot",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset the computer",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot the machine immediately?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   Give The Computer A Reset Please!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "pleas give the box a reset",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot   the   computer!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot   the   system   please,   please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "REbooT tHE box",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "please reset the machine",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset   the   box   please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   Restart It!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart   it   now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "resTart thE maCHIne right nOw",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Please Restart",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot the machine immediately",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "plese reboot the computer",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "the giive system a reset",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "GIVe The BoX a reset",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now giev the system a reset",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the computer a reset",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "boot it again",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "pllease reboot the computer",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the computer a reset!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "please i ant to reboot",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now restart the system",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart the machine",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "rresTart tHE sYSTEM noW",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   reboot.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   restart the system now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "gve the box a reset now!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   reboot the computer please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot the box",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset   everything   please,   pleasee",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset   the   machine   please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart the system now",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset the machine",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now reboot the computer",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "i wantt to reboot please",
+   "ops": [
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot   the   computer   please...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "i want TO rebOot PlEAsee",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now restart the machine right",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset everything please",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   reset the computer now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset   the   machine   please...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "boot it again please",
+   "ops": [],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot   the   computer   now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Give the CoMPuTEr A ReseT pLEASe!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset   the   computer,   please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   Do A Reboot!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give the system a reset, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "rEstArT it now",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "RESTaRt tHe maChInE RiGhT nOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "REBOOT",
+   "ops": [
+    "case"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "give   the   system   a   reset   now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reboot the box!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "the reboot machine immediately",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   restart it now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now give the machine a reset",
+   "ops": [
+    "order"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart the computer now",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "reset the box please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   igve the machine a reset now!",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   please restart?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "igve the computer a reset now",
+   "ops": [
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "   reboot please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "restart   the   system   now...",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "do a reboot please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "boot   it   again   now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "RESTART NOW, please",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "Give The Sstem A Reset Now",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 10,
+   "intent_name": "REBOOT"
+  },
+  {
+   "text": "now shut the machine down",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Shut The Box Down",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "now shut the box down",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   I waNT to sHuTdOWN nOw.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   kill the power now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   Turn It Off Now?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "HALT THE SYSTEM NOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "pleae shut the computer down",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "poweroff please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "PoWer OFf the SYSTem",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut the box down",
+   "ops": [
+    "synonym"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Poweroff Now",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "POER OFF PLEASE",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "the halt machine",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch the system off now",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   I WANT TO SHUTDOWN NOW.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   SWITCH THE MACHINE OFF NOW?",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "power off pplease",
+   "ops": [
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "down power now",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   power off now...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "STOP THE MACHINE PLEAS",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop the machine please!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   halt the system now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "the switch machine off",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "halt please",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "pelase power off",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "sTop ThE comPUTER",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   power off the box.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "now halt the system",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Pwoer Off Now",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop the system please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Shut The Computer Down Plese",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "poweroff",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut the machine down please",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "i want to shutdown!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "off power now",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch the machine off?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "halt   the   computer?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "kill   the   power   now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut down please",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   halt the box",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut   the   box   down?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   turn off the system!",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut the computer down please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Turn off THe bOX",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut   the   box   down   now!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut the machine down now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "pease stop the machine",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "SWITCh thE coMpUtEr OfF nOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop   the   box   please...",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut down please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "halt the system now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "TURN OFF THE BOX",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Shut The Machine Down Please",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "power off please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch   the   machine   off   now!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "STOP THE BOX",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "turn   off   the   computer",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "wannt i to shutdown",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "ShUT doWn PleASe",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "turn it off please",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "wan i to shutdown",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   poweroff now",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "off power the box",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "poweroff now",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "I WATN TO SHUTDOWN",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Power Off The Box",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop the computer",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "power off the computer",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop the box!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Halt Please",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Turn It Off Now.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "off power the system",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Power Down Now",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "turn it off now",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Poweroff",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   poweroff, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "I Wnat To Shutdown",
+   "ops": [
+    "case",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "halt the box.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "halt the machine.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop the system please",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut tHe macHinE DowN",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "TURN   IT   OFF   PLEASE!!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop   the   computer?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop the system pleaes",
+   "ops": [
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch the machine off",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "please poweroff",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "SWITCH   THE   SYSTEM   OFF   NOW!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "now kill the power",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch the box off",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   halt please.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "TURn Off tHE comPuTeR",
+   "ops": [
+    "synonym",
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "Power Off The System",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "now shut the computer down",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "the halt computer",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch   the   system   off   now,   please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "SWITCH THE COMPUTER OFF NOW",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   Power Off The System Now.",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "sHUT ThE MAchine DOwn NOw",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut the machine down please?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut   the   machine   down   pease",
+   "ops": [
+    "punct",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "PoWeR OfF THe COMPUter!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "power off now",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "now poweroff",
+   "ops": [
+    "order"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "power off the system.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch the machine off now",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "switch   the   computer   off   now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "turn   off   the   box.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   shut the box down?",
+   "ops": [
+    "synonym",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   halt the machine!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   poweroff now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "SWITCH THE BOX OFF!",
+   "ops": [
+    "case",
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   power down now.",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "power   down   now!!",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "STOp THE BOx",
+   "ops": [
+    "case"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "shut the box down now",
+   "ops": [],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "halt please, please",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "   shut the computer down now?",
+   "ops": [
+    "punct"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "pleasse stop the machine",
+   "ops": [
+    "order",
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  },
+  {
+   "text": "stop the system plaese",
+   "ops": [
+    "typo"
+   ],
+   "intent": 11,
+   "intent_name": "SHUTDOWN"
+  }
+ ],
+ "oov": [
+  {
+   "text": "sing me a song",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "what is the weather tomorrow",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "open a browser",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "book me a flight",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "translate this to chinese",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "play some music",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "order me a pizza",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "what time is it",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "tell me a joke",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "send an email to bob",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "how do i cook pasta",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "who won the match last night",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "what is the capital of france",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "set an alarm for seven",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "download a movie",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "write a poem about the sea",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "call me a taxi",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "what should i eat for dinner",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "buy me a ticket to paris",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "explain quantum physics",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "how old is the universe",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "make me a sandwich",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "record a video of the cat",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "stream the latest news",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "find me a hotel in tokyo",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "check my bank balance",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "print my boarding pass",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "water the plants",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "walk the dog please",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "change the wallpaper to blue",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "unsubscribe from the newsletter",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "what is the meaning of life",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "teach me to play guitar",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "reserve a table for two",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "update my social status",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "sync my calendar",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "post a photo online",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "start a video call",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "mute the microphone",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "turn up the volume",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "skip this song",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "shuffle the playlist",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "read my messages aloud",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "remind me to buy milk",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "show me the news headlines",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "what is trending today",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "translate the menu",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "book a dentist appointment",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "renew my passport",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "pay the electricity bill",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "compare insurance prices",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "track my package",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "guess my age",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "tell me a bedtime story",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "what is the square root of pi",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "plan a weekend trip",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "hire a designer",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "apply for a visa",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "check the lottery numbers",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  },
+  {
+   "text": "follow me on social media",
+   "intent": -1,
+   "intent_name": "FALLBACK",
+   "ops": []
+  }
+ ]
+}
