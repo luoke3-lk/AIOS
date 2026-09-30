@@ -16,6 +16,19 @@ underneath it.
 
 ---
 
+## Why AIOS
+
+Today's large models all run *on top of* an operating system. Most of the
+hardware's capability is handed to the OS scheduler, so the AI never really
+gets 100% of the machine. Letting the AI control the hardware itself might be
+a way out.
+
+This is a demo prototype and it is not finished — it is not a production
+system. Do not write `aios.img` or `aios-hdd.img` to any disk that holds data
+you care about.
+
+It was built by one person. Contributions are very welcome.
+
 ## What AIOS is *not*
 
 Please read this before you file an issue:
